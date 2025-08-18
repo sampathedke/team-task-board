@@ -1,0 +1,29 @@
+/* TaskColumn.css */
+
+.task-column {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.task-column h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.task-column-droppable {
+  min-height: 200px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.task-column-droppable:hover {
+  background-color: #e6f0ff;
+}

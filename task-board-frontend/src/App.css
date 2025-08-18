@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title-container h2 {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #222;
+}
+
+.title-container small {
+  color: #777;
+  font-weight: 500;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+}
+
+.user-section span {
+  margin-right: 20px;
+  font-weight: 600;
+  color: #444;
+  font-size: 1rem;
+}
+
+.logout-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+/* ------ Badge Colors ------ */
+.badge-pill{
+  padding:2px 8px;
+  border-radius:12px;
+  font-size:11px;
+  font-weight:600;
+  color:#fff;
+}
+
+/* priority */
+.badge-low       { background:#808080; }
+.badge-medium    { background:#ff9800; }
+.badge-high      { background:#e53935; }
+
+/* status badge (task board columns) */
+.badge-col{
+  display:inline-block;
+  width:12px;
+  height:12px;
+  border-radius:50%;
+}
+
+/* Column status colors */
+.badge-backlog       { background:#6b6b6b; }
+.badge-in_progress   { background:#1976d2; }
+.badge-review        { background:#ffa000; }
+.badge-done          { background:#2e7d32; }
+
+/* status in card (onTrack, atRisk, overdue) */
+.badge-status-ontrack    { background:#2e7d32; }
+.badge-status-atrisk     { background:#ffa000; }
+.badge-status-overdue    { background:#d32f2f; }

@@ -8,8 +8,7 @@ Layer      Technology
 -------------------------------------
  Backend    - Java (Spring Boot)       
  Frontend   - React                    
- Database   - MySQL                   
- Deployment - Railway (backend) + Vercel (frontend) 
+ Database   - MySQL                    
 
 ## Features
 
@@ -59,7 +58,7 @@ Layer      Technology
 ### 1. Clone project
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/sampathedke/team-task-board.git
 cd team-task-board
 ```
 
